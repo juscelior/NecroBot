@@ -1,12 +1,13 @@
 <!-- define warning icon -->
-[1.1]: http://i.imgur.com/M4fJ65n.png (ATTENTION)
-[1.2]: http://i.imgur.com/067uOVo.png (NECROBOT_HEADER)
+[1.1]: http://necrobot.io/img/mainlogo.png (NECROBOT_HEADER)
+<!-- header -->
+![alt text][1.1] <br/><br/>
+
 <!-- title -->
-<h1>A Pokemon Go Bot based on FeroxRevs API</h1>
-<!-- disclaimer -->
-![alt text][1.1] <strong><em> The contents of this repo are a proof of concept and are for educational use only </em></strong>![alt text][1.1]<br/><br/>
-![alt text][1.2] <br/><br/>
-Chatting about this Repository can be done on our Discord: https://discord.gg/VsVrjgr <br/>
+<h1>NecroBot - a Pokemon Go Bot based on RocketAPI</h1>
+Visit our new Website! : http://necrobot.io
+
+Chatting about this Repository can be done on our Discord: https://discord.gg/VXKxNFr <br/>
 <br/>
 
 <h2><a name="features">Features</a></h2>
@@ -28,15 +29,12 @@ Chatting about this Repository can be done on our Discord: https://discord.gg/Vs
  - [Use lucky egg while evolve]
  - [Egg Hatching Automatically]
  - [Multi bot support]
+ - [Snipe pokemon]
+ - [Power-Up pokemon]
 
 <h2><a name="getting-started">Getting Started</a></h2>
 Make sure you check out our [Wiki](https://github.com/NecronomiconCoding/NecroBot/wiki) to get started.
 <br/>
-
-<h2><a name="credits">Credits</a></h2>
-A big thank you goes to Feroxs' hard work on the API & Console. Without him, this would not have been possible. <3
-<br/>
-Thanks to everyone who volunteered by contributing via Pull Requests!
 
 <h2><a name="donating">Donating</a></h2>
 <a name="paypal">Feel free to buy us all a beer, by using PayPal:</a><br/>
@@ -44,5 +42,16 @@ Thanks to everyone who volunteered by contributing via Pull Requests!
 
 <h6><em>[ All PayPal donations are distributed amongst our most active collaborators. ]</em></h6><br/>
 <a name="btc">Donate Bitcoins to FeroxRev (the API library developer): *1ExYxfBb5cERHyAfqtFscJW7vm2vWBbL3e*</a><br/>
+
+<h2><a name="credits">Credits</a></h2>
+A big thank you goes to Feroxs' hard work on the API & Console. Without him, this would not have been possible. <3
+<br/>
+Thanks to everyone who volunteered by contributing via Pull Requests!
+
+<h2><a name="legal">Legal</a></h2>
+
+This Website and Project is in no way affiliated with, authorized, maintained, sponsored or endorsed by Niantic, The Pokémon Company, Nintendo or any of its affiliates or subsidiaries. This is an independent and unofficial API for educational use ONLY. 
+Using the Project might be against the TOS
+
 
 <hr/>
