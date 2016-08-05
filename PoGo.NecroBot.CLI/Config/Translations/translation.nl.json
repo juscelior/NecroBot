@@ -2,11 +2,11 @@
   "TranslationStrings": [
     {
       "Key": "pokeball",
-      "Value": "PokeBall"
+      "Value": "PokéBall"
     },
     {
       "Key": "greatPokeball",
-      "Value": "SuperBall"
+      "Value": "GreatBall"
     },
     {
       "Key": "ultraPokeball",
@@ -14,7 +14,7 @@
     },
     {
       "Key": "masterPokeball",
-      "Value": "MeesterBall"
+      "Value": "MasterBall"
     },
     {
       "Key": "wrongAuthType",
@@ -27,7 +27,7 @@
     },
     {
       "Key": "farmPokestopsNoUsableFound",
-      "Value": "Geen geschikte PokeStops gevonden in je omgeving. Is je bereik te klein?"
+      "Value": "Geen geschikte PokéStops gevonden in je omgeving. Is je bereik te klein?"
     },
     {
       "Key": "eventFortUsed",
@@ -72,7 +72,7 @@
     },
     {
       "Key": "eventNoPokeballs",
-      "Value": "Geen ballen meer - Een {0} met CP {1} misgelopen "
+      "Value": "Geen Pokéballen meer - Een {0} met CP {1} misgelopen "
     },
     {
       "Key": "catchStatusAttempt",
@@ -84,7 +84,7 @@
     },
     {
       "Key": "candies",
-      "Value": "Snoepjes: {0}"
+      "Value": "Candies: {0}"
     },
     {
       "Key": "unhandledGpxData",
@@ -92,7 +92,7 @@
     },
     {
       "Key": "displayHighestsHeader",
-      "Value": "Pokemons"
+      "Value": "Pokémons"
     },
     {
       "Key": "commonWordPerfect",
@@ -126,5 +126,6 @@
       "Key": "incubatorStatusUpdate",
       "Value": "Broedmachine status update: {0:0.00}km resterend"
     }
-  ]
+  ],
+  "PokemonStrings": [ ]
 }

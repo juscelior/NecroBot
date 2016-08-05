@@ -19,6 +19,7 @@ namespace PoGo.NecroBot.CLI
     internal class Program
     {
         private static readonly ManualResetEvent QuitEvent = new ManualResetEvent(false);
+        private static string subPath = "";
         private static void Main(string[] args)
         {
             AppDomain.CurrentDomain.UnhandledException += UnhandledExceptionEventHandler;
@@ -32,17 +33,15 @@ namespace PoGo.NecroBot.CLI
 
             CultureInfo.DefaultThreadCurrentCulture = culture;
             Thread.CurrentThread.CurrentCulture = culture;
-            var subPath = "";
             if (args.Length > 0)
                 subPath = args[0];
 
             Logger.SetLogger(new ConsoleLogger(LogLevel.Info), subPath);
-
+            
             var settings = GlobalSettings.Load(subPath);
 
             if (settings == null)
             {
-                Logger.Write("This is your first start and the bot has generated the default config!", LogLevel.Warning);
                 Logger.Write("Press a Key to continue...",
                     LogLevel.Warning);
                 Console.ReadKey();
@@ -105,8 +104,7 @@ namespace PoGo.NecroBot.CLI
 
         private static void SaveLocationToDisk(double lat, double lng)
         {
-            var coordsPath = Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar + "Config" +
-                             Path.DirectorySeparatorChar + "LastPos.ini";
+            var coordsPath = Path.Combine(Directory.GetCurrentDirectory(), subPath, "Config", "LastPos.ini");
 
             File.WriteAllText(coordsPath, $"{lat}:{lng}");
         }
